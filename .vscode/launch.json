@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ubl2pdf: convert fixture",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "ubl2pdf",
+            "args": [
+                "convert",
+                "${workspaceFolder}/tests/fixtures/6280310.xml",
+                "--output",
+                "${workspaceFolder}/6280310.pdf"
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}
